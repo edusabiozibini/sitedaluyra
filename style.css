@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora";
+    background-color: #f5f5dc;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    background-color: #13378b;
+    color: #f5f5dc;
+    height: 200px;
+    text-decoration: none;
+}
+
+.container_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto_header{
+    margin-left: 100px;
+}
+
+
+.texto_header:hover{
+    color: #000000;
+    transition: 0s;
+    cursor: pointer;
+}
+
+.logotipo{
+    margin-top: -50px;
+    margin-left: -33px;
+}
+
+.logo{
+    height: 100px;
+    width: 125px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.ul_header {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-right: 50px;
+    text-decoration: none;
+    
+}
+
+li, a{
+    font-family: "Lora";
+    color: #f5f5dc;
+    text-decoration: none;
+    font-size: 19px;
+    list-style: none; /* Para tirar os pontinhos*/
+}
+
+a:hover {
+    color: #5486c6ec;
+    transition: 1s;
+    cursor: pointer;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    max-height: 500px; 
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Sobre nós */
+.container_sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px;
+    text-align: center;
+}
+
+.img_sobre {
+    width: 400px;
+    height: 500px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    box-shadow: 10px 5px 5px  rgba(0, 0, 0, 0.3);
+}
+
+.titulo{
+    font-family: "Merriweather";
+    font-size: 32px;
+    color: #5486c6ec;
+}
+
+
+.para_sobre{
+    padding: 0 140px 50px 140px;
+    font-size: 18px;
+}
+
+/* Mapa */
+.container_mapa{
+    display: flex;
+    flex-direction: column;
+    background-color: #13378b;
+    padding: 100px;
+    text-align: center;
+}
+
+.titulo_mapa{
+    color: #f5f5dc;
+    font-size: 45px;
+    margin-left: 62px;
+}
+iframe{
+    margin-left: 35%;
+}
+
+/* Produtos */
+.container_produtos{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#13378b, #a7bcec);
+    text-align: center;
+}
+
+.produtos_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.ul_produtos {
+    list-style: none;
+    padding: 0;
+    padding-left: 700px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.ul_produtos li {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.foto_produtos{
+    width: 300px;
+    height: auto;
+}
+
+footer{
+    background: url(img/download.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    padding: 30px 10px 10px 0;
+}
+
+footer p{
+    color: #fff;
+    text-align: right;
+}
+
+.logo_footer {
+    width: 5%;
+    padding-left: 95%;
+}
+
+
+/*Container dos cards*/
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+/*Estilização do card*/
+.card {
+    background-color: white;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+/*Imagens*/
+.card img {
+    width: 77%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*Título*/
+.card h2 {
+    margin: 10px 0;
+}
+/*Preço*/
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 10px 0;
+}
