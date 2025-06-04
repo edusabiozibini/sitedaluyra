@@ -191,6 +191,7 @@ footer p{
     flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 20px;
+    margin-top: 20px;
 }
 /*Estilização do card*/
 .card {
@@ -223,3 +224,160 @@ footer p{
     color: #27ae60;
     margin: 10px 0;
 }
+
+.pop{
+    margin: 0;
+}
+
+.pop img {
+    width: 700;
+    height: 500;
+    padding-left: 7%;
+}
+
+.pop h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:#13378b;
+}
+
+.pop p{
+    padding: 2% 0 9% 7%;
+    margin: 0;
+    white-space: pre-line;
+}
+
+.contatos-titulo{ 
+    font-size: 40px; 
+    font-weight: bold; 
+    color:rgb(78, 8, 116);
+    font-family: cursive; 
+    list-style: none; 
+    } 
+
+    .contatos-item:before{ 
+    content:"📷";
+    } 
+    
+    .texto-contatos{ 
+    padding-left: 5%; 
+    }
+
+    form{ 
+    margin-top: 20px; 
+    margin-left: 20%; 
+    margin-bottom: 0; 
+    }
+
+    form label, form legend{ 
+    display: block; 
+    font-size: 20px; 
+    margin: 0 0 10px; 
+    }
+
+    fieldset{
+    width: 75%; 
+    padding-left: 5%; 
+    margin-bottom: 2%;
+}
+
+.input-padrao{
+display: block; 
+margin: 0 0 20px; 
+padding: 10px 25px; 
+width: 85%;
+} 
+
+.chk{ 
+margin: 20px 0; 
+} 
+
+.enviar{ 
+width: 40%; 
+padding: 15px 0; 
+margin-bottom: 20px; 
+background:#13378b;
+color: white; 
+font-weight: bold; 
+border: none; 
+border-radius: 5px; 
+transition: 1s all; 
+cursor: pointer; 
+} 
+
+.enviar:hover{ 
+background:rgb(192, 186, 18); 
+transform: scale(1.2); 
+}
+
+.divRetorno{
+display: none; 
+margin-bottom: 15px; 
+} 
+.divRetorno p{ 
+font-size: 24px;
+}
+
+.sobre-destaque {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 50px;
+    gap: 50px;
+  }
+  
+  .sobre-texto {
+    max-width: 50%;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #13378b;
+  }
+  
+  .sobre-texto h1 {
+    font-size: 36px;
+    color: #5486c6;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-imagem img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .insta-chamada {
+    text-align: center;
+    background-color: #13378b;
+    color: #f5f5dc;
+    padding: 60px 20px;
+    margin-top: 50px;
+  }
+  
+  .insta-chamada h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .insta-chamada p {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .botao-insta {
+    background-color: #e4405f;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .botao-insta:hover {
+    background-color: #c92e4d;
+    cursor: pointer;
+  }
+  

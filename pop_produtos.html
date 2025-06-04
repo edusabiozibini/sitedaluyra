@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZibiniProd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="pop">
+            <h1 id="nome-produto">TITULO</h1>
+            <img id="imagem-produto" alt="">
+            <p id="descricao-produto">DESCRICAO</p>
+            <script>
+              function getParametro(dado){
+              const urlParams = new URLSearchParams(window.location.search);
+              return urlParams.get(dado);
+              }  
+
+              document.getElementById("nome-produto").textContent = getParametro("nome");
+              document.getElementById("imagem-produto").src = getParametro("imagem");
+              document.getElementById("descricao-produto").textContent = getParametro("descricao");
+            </script>
+        </div>
+    </main>
+</body>
+</html>
